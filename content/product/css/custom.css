@@ -37,6 +37,12 @@
   }
   .titulodesktop{
     width: 60%;
+    font-size: 60px;
+  }
+  .subtitulodesktop{
+    width: 70%;
+    font-size: 40px;
+    line-height: normal;
   }
     
   }
