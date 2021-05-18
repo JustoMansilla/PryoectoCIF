@@ -21,11 +21,10 @@
    
     
   #herodesktop{
-    width: 1920px;
-      height: 820px;
+    
       max-height: 100%;
       margin: 0;
-      padding: 10%;
+      padding: 20%;
       background-image: url(/imagenes/hero-prueba.jpg);
       background-size:100% 100%;
       background-repeat: no-repeat;
