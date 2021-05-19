@@ -42,13 +42,39 @@
       align-content: center;
       text-align: center;
   }
+  #bajada{
+    
+    max-height: 100%;
+    margin: 0;
+    padding: 10%;
+    background-image: url(/imagenes/fondo-hojas.jpg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+  #formula{
+    display: flex;
+    background-image: url(/imagenes/burbujasfondo2.jpg);
+    align-items: center;
+    background-size:100% 100%;
+    justify-content: space-around;
+    padding: 10%;
+    background-repeat: no-repeat;
+  }
+
   .titulodesktop{
     width: 50%;
     font-size: 50px;
     font-weight: 600;
   }
   .subtitulodesktop{
-    width: 50%;
+    width: 60%;
     font-weight: 400;
     font-size: 30px;
     line-height: normal;
