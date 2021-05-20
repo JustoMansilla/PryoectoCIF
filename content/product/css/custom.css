@@ -1,7 +1,8 @@
+/* MOBILE */
 @media only screen and (max-width: 458px) {
 
     #herodesktop{
-      background-image: url(/imagenes/hero-prueba.jpg);
+      background-image: url(/imagenes/hero-mobile.jpg);
       height: 812px;
       display: flex;
       flex-wrap: wrap;
@@ -13,6 +14,8 @@
     }
     .titulodesktop{
       width: 85%;
+      color: #fff;
+      font-weight: 600;
     }
     #sustentable{
       display: none;
@@ -23,16 +26,74 @@
     }
   }
   
-  @media only screen and (min-width: 458px) {
   
-   
+  #formula{
+    display: flex;
+    flex-direction: column;
+    background-image: none;
+    align-items: center;
+    background-size:100% 100%;
+    justify-content: space-around;
+    padding: 5%;
+    background-repeat: no-repeat;
+  }
+
+  #formula1{
+    width: 80%;margin: 0 auto; 
+    text-align: center;
+    padding-left: 5%;
+  }
+
+  #formula2{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #bajada{
     
+    max-height: 100%;
+    margin: 0;
+    padding: 10%;
+    background-image: url(/imagenes/fondo-funciona.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.subtitulodesktop{
+  width: 80%;
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: normal;
+  padding-left: 5%;
+}
+  
+
+#funcionabg{
+  padding-top:20px;
+   padding-bottom:0px;
+   
+}
+
+
+
+
+  /* DESKTOP */
+  @media only screen and (min-width: 458px) {
+     
   #herodesktop{
     
       max-height: 100%;
       margin: 0;
-      padding: 12%;
-      background-image: url(/imagenes/hero-pibe.png);
+      padding: 20%;
+      background-image: url(/imagenes/hero-prueba2.jpg);
       background-size:100% 100%;
       background-repeat: no-repeat;
       display: flex;
@@ -47,7 +108,7 @@
     max-height: 100%;
     margin: 0;
     padding: 10%;
-    background-image: url(/imagenes/fondo-hojas.jpg);
+    background-image: url(/imagenes/fondo-funciona.jpg);
     background-size:100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -65,19 +126,46 @@
     background-size:100% 100%;
     justify-content: space-around;
     padding: 5%;
+    flex-direction: row;
     background-repeat: no-repeat;
+  }
+
+  #formula1{
+    width: 40%;margin: 0 auto; 
+    text-align: center;
+    padding-left: 5%;
+  }
+
+  #formula2{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .titulodesktop{
     width: 50%;
     font-size: 50px;
     font-weight: 600;
+    color: #fff;
   }
   .subtitulodesktop{
     width: 60%;
     font-weight: 400;
     font-size: 30px;
     line-height: normal;
+    padding: 5px;
   }
     
+  #linea{
+    display: none;
+  }
+  #funcionabg{
+    padding-top:10px;
+     padding-bottom:0px;
+      background-image: url(/imagenes/fondo-funciona.jpg);
+       background-repeat:
+        no-repeat;
+        background-size:100% 100%;
+  }
+  
   }
