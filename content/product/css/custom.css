@@ -82,6 +82,10 @@
    
 }
 
+#slider{
+  display: none;
+
+}
 
 
 
@@ -109,7 +113,7 @@
     margin: 0;
     padding: 10%;
     background-image: url(/imagenes/fondo-funciona.jpg);
-    background-size:100% 100%;
+    background-size:100% ;
     background-repeat: no-repeat;
     display: flex;
     flex-wrap: wrap;
@@ -168,4 +172,19 @@
         background-size:100% 100%;
   }
   
+  #slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2%;
   }
+
+  #slidermobile{
+    display: none;
+    
+  }
+  
+
+
+
+}
