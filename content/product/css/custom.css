@@ -2,7 +2,7 @@
 @media only screen and (max-width: 458px) {
 
     #herodesktop{
-      background-image: url(/imagenes/hero-mobile.jpg);
+      background-image: url(/imagenes/hero-mobile2.jpg);
       height: 812px;
       display: flex;
       flex-wrap: wrap;
