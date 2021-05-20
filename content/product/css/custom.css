@@ -125,6 +125,7 @@
     background-size:100% 100%;
     justify-content: space-around;
     padding: 5%;
+    flex-direction: row;
     background-repeat: no-repeat;
   }
 
