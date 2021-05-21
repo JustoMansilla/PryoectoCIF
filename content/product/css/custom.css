@@ -93,12 +93,20 @@
   #h5Funcion{
     width: 100%;
   }
+  #cincopor{
+    background-image: url(/imagenes/kv-mobile.jpg);
+    background-repeat: no-repeat;
+  
+    background-size: contain;
+  }
 }
-
 
   /* DESKTOP */
   @media only screen and (min-width: 458px) {
      
+  #cincopor{
+    background-image: url(/imagenes/kv.jpg);
+  }
   #herodesktop{
     
       max-height: 100%;
